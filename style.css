@@ -1,5 +1,62 @@
+
+/* Fond d'écran */
+body{
+    background-color: #000000;
+    padding: 0px;
+    margin: 0px;
+    background: url(https://f.cl.ly/items/2J2F3r0F3Q1z032u2V0J/Capitol_grey_contrast.jpg);
+}
+ 
+ #gradient
+ {
+   width: 100vw;
+   height: 100vh;
+   padding: 0px;
+   margin: 0px;
+ }
+
+/* Site web */
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    /*margin:20px;*/
+    
+}
+
+.formulaire{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    text-align: center;
+    
+    
+}
+
 form{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+}
+
+form button{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px 5px 5px 0px;
+}
+
+#password{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    /*text-align: center;*/
+    margin: 20px;
+    /*padding: 10px;*/
+    /*width: 80%;
+    height:80%;*/
+    text-align: justify;
+    /*border: solid red 5px;*/
 }
