@@ -15,8 +15,29 @@
 
     <!-- Formulaire -->
     <form >
+
         <!-- Longueur du mot de passe-->
         <label for="lenght">Longueur du mot de passe</label>
+        <input type="number" id="lenght" name="lenght"> <br><!-- id ==> va permetrre de le récupérer pour le JS-->
+
+        <!-- choix si on veux ou pas des nombres-->
+        <input type="checkbox" id="include-numbers" name="include-numbers">
+        <label for="include-numbers">Inclure des nombres</label>
+
+        <!-- choix si on veux ou pas des symboles-->
+        <input type="checkbox" id="include-symbols" name="include-symbols">
+        <label for="include-symbols">Inclure des symboles</label>
+
+        <!-- bouton pour générer le mots de passe indéfiniment-->
+        <button type="button" onclick="generatePassword()">Générer le mot de passe</button> <!-- Il va permettre d'envoyer le formulaire au code JS pour qu'il puisse le modifier très simplement et l'afficher. generatePassword ==> c'est le nom de la fonction JS que l'on à créer et qui va être appeler lorsque l'on va clicker sur le bouton envoyer le mot de passe -->
+
     </form>
+
+    <!-- Permettra d'afficher le mot de passe-->
+    <div id="password"></div>
+
+
+    
+
 </body>
 </html>
