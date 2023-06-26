@@ -67,6 +67,14 @@
                 characters += "&~#'()-/^@%§:;,$£*-*";
             }
 
+            // Initialisation de la variable qui stockera le mot de passe.
+            let password =""; // on ne met rien dedans on l'initiale seulement.
+
+            //génération du mot de passe.
+            // temps qui i est inférieur à la longueur ex:6 on incrémente de + 1. Donc cela génèrera un mot de passe de 6 caractères
+            for(let i =0; i< lenght; i++){ 
+                password += characters.charAt(Math.floor(Math.random()*characters.lenght));
+            }
         }
     </script>
 
