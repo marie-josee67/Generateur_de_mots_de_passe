@@ -1,4 +1,4 @@
-/* Fond d'écran */
+/* ********************************************* Fond d'écran *********************************** */
 var colors = new Array(
     [62,35,255],
     [60,255,60],
@@ -58,7 +58,8 @@ var colors = new Array(
   setInterval(updateGradient,10);
 
 
-/* Site web */
+/* ***************************** Site web *********************************** */
+
 function generatePassword(){
     // Récupérer la longueur du mot de passe.
     let length = document.getElementById("length").value; // On à créer une variable qui s'appel : let lenght qui va contenir la valeur de notre Id lenght ( le champ ==>longueur du mot de passe).
