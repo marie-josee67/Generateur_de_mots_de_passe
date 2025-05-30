@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="Fr">
+<html lang="Fr-fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,16 +7,9 @@
 
     <!-- description navigateur-->
     <meta name="description" content="Générateur de mot de Passe">
-    
-    <!--Icon dans l'onglet -->
+
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
-
-    <!-- Lien fichier CSS -->
     <link rel="stylesheet" href="style.css">
-
-    <!-- Fond d'écran -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-
     <title>Générateur de mot de Passe</title>
 </head>
 <body>
@@ -37,9 +30,9 @@
 
                 <!-- Longueur du mot de passe-->
                 <label for="length">Longueur du mot de passe</label>
-                <input type="number" id="length" name="length"> <br><!-- id ==> va permetre de le récupérer pour le JS-->
+                <input type="number" id="length" name="length"> <br>
 
-                <!-- choix si on veux ou pas des nombres-->
+                <!-- choix si on veux ou pas les majuscules-->
                 <input type="checkbox" id="include-majuscule" name="include-majuscule">
                 <label for="include-majuscule">Inclure des majuscules</label>
 
@@ -52,7 +45,7 @@
                 <label for="include-symbols">Inclure des symboles</label>
 
                 <!-- bouton pour générer le mots de passe indéfiniment-->
-                <button type="button" onclick="generatePassword()">Générer le mot de passe</button> <!-- Il va permettre d'envoyer le formulaire au code JS pour qu'il puisse le modifier très simplement et l'afficher. generatePassword ==> c'est le nom de la fonction JS que l'on à créer et qui va être appeler lorsque l'on va clicker sur le bouton envoyer le mot de passe -->
+                <button type="button" onclick="generatePassword()">Générer le mot de passe</button> 
 
             </form>
         </div>
@@ -71,5 +64,7 @@
         <p >&copy;2025 tout droit réserver</p>
     </footer>
 
+    <!-- Fond d'écran -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
 </body>
 </html>
