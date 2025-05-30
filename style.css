@@ -23,13 +23,12 @@ body{
 }
 
 /* **************************************** Site web ******************************************* */
-
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin:20px;
+    padding-top:20px;
     
 }
 
