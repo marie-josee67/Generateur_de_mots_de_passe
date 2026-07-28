@@ -1,4 +1,10 @@
 
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 /* ************************************* Fond d'écran ********************************************** */
 body{
     padding: 0px;
@@ -17,13 +23,12 @@ body{
 }
 
 /* **************************************** Site web ******************************************* */
-
 .title{
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 30px;
-    margin:20px;
+    padding-top:20px;
     
 }
 
